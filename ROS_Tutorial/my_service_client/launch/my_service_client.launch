@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="my_service_client" type="add_two_ints_client.py" name="TwoIntsServiceClient" output="screen">
+    </node>
+</launch>

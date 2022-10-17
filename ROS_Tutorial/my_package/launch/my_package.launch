@@ -1,0 +1,5 @@
+<launch>
+    <!-- My first launch file in ROS! -->
+    <node pkg="my_package" type="my_first_node.py" name="my_first_node" output="screen">
+    </node>
+</launch>

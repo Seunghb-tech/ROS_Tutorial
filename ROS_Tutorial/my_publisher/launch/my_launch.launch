@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="my_publisher" type="publisher_cmd_vel.py" name="PublishVel" output="screen">
+      <!-- <remap from="cmd_vel" to="/turtle1/cmd_vel" />  -->
+    </node>
+</launch>
