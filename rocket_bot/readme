@@ -1,0 +1,7 @@
+<Execution>
+roscore
+rosrun rocket_bot rocket_bot.py
+rosrun rocket_bot thruster_w_globals.py
+
+<launch file>
+roslaunch rocket_bot roscket_bot_demo.launch color_r:=100

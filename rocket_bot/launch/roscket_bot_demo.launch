@@ -1,0 +1,14 @@
+<launch>
+  <arg name="color_r"   default="255" />
+  <arg name="color_g"   default="255" />
+  <arg name="color_b"   default="255" />
+
+  <node pkg="rocket_bot" name="rocket_bot_node" type="rocket_bot.py" output="screen">
+    <!-- <param name="back_b"  value="100" /> -->
+    <param name="back_r"  value="$(arg color_r)" />
+    <param name="back_g"  value="$(arg color_g)" />
+    <param name="back_b"  value="$(arg color_b)" />
+  </node>
+  <node pkg="rocket_bot" name="thruster_w_node" type="thruster_w_globals.py" output="screen">
+  </node>
+</launch>
